@@ -6,7 +6,8 @@ using Azure.Messaging.ServiceBus;
 class Program
 {
     // Replace with your Service Bus connection string and queue name
-    private const string connectionString = "";
+   private const string connectionString = "<YourConnectionStringHere>";
+
     private const string queueName = "orderqueue";
 
     static async Task Main(string[] args)
