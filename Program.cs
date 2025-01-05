@@ -6,7 +6,7 @@ using Azure.Messaging.ServiceBus;
 class Program
 {
     // Replace with your Service Bus connection string and queue name
-    private const string connectionString = "Endpoint=sb://orderprocessingnamespace.servicebus.windows.net/;SharedAccessKeyName=akall;SharedAccessKey=9bAZE59E61l/ymW48I7mVeW/EYgTzRsSS+ASbKCX8/U=;EntityPath=orderqueue";
+    private const string connectionString = "";
     private const string queueName = "orderqueue";
 
     static async Task Main(string[] args)
